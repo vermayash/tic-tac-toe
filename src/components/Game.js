@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { render } from "react-dom";
 import Board from "./Board";
-import calculateWinner from "./logic.js/calculateWinner";
+import calculateWinner from "./logic/calculateWinner";
 
 const styles = {
   width: "200px",
